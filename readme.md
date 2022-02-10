@@ -17,7 +17,7 @@ console.log(a + b);
 
 ```js
 const fs = require("fs");
-const input = fs.readFileSync("input.txt").toString().split("\n"); ///dev/stdin
+const input = fs.readFileSync("/dev/stdin").toString().split("\n"); ///dev/stdin
 
 let nums = [];
 
