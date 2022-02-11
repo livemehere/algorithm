@@ -2,6 +2,8 @@
 
 ## nodejs 환경에서의 input
 
+- 백준에서 input값을 fs로 읽고있고, 경로가 /dev/stdin 이기때문에, 편하게 붙여넣기위해 dev폴더를 만들었습니다
+
 ### 1줄
 
 ```js
